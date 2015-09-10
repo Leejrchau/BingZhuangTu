@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF451F561A65FA2F00A4073C /* CLMView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF451F551A65FA2F00A4073C /* CLMView.m */; };
 		CF58B0B21A650BCE00CF04C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF58B0B11A650BCE00CF04C0 /* main.m */; };
 		CF58B0B51A650BCE00CF04C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF58B0B41A650BCE00CF04C0 /* AppDelegate.m */; };
 		CF58B0B81A650BCE00CF04C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF58B0B71A650BCE00CF04C0 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		CF58B0BD1A650BCF00CF04C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF58B0BC1A650BCF00CF04C0 /* Images.xcassets */; };
 		CF58B0C01A650BCF00CF04C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF58B0BE1A650BCF00CF04C0 /* LaunchScreen.xib */; };
 		CF58B0CC1A650BCF00CF04C0 /* BingZhuangTuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF58B0CB1A650BCF00CF04C0 /* BingZhuangTuTests.m */; };
+		CF58B0D71A650DB600CF04C0 /* DrawOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF58B0D61A650DB600CF04C0 /* DrawOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF451F541A65FA2F00A4073C /* CLMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMView.h; sourceTree = "<group>"; };
+		CF451F551A65FA2F00A4073C /* CLMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMView.m; sourceTree = "<group>"; };
 		CF58B0AC1A650BCE00CF04C0 /* BingZhuangTu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingZhuangTu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF58B0B01A650BCE00CF04C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF58B0B11A650BCE00CF04C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		CF58B0C51A650BCF00CF04C0 /* BingZhuangTuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingZhuangTuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF58B0CA1A650BCF00CF04C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF58B0CB1A650BCF00CF04C0 /* BingZhuangTuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BingZhuangTuTests.m; sourceTree = "<group>"; };
+		CF58B0D51A650DB600CF04C0 /* DrawOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawOperation.h; sourceTree = "<group>"; };
+		CF58B0D61A650DB600CF04C0 /* DrawOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				CF58B0BC1A650BCF00CF04C0 /* Images.xcassets */,
 				CF58B0BE1A650BCF00CF04C0 /* LaunchScreen.xib */,
 				CF58B0AF1A650BCE00CF04C0 /* Supporting Files */,
+				CF58B0D51A650DB600CF04C0 /* DrawOperation.h */,
+				CF58B0D61A650DB600CF04C0 /* DrawOperation.m */,
+				CF451F541A65FA2F00A4073C /* CLMView.h */,
+				CF451F551A65FA2F00A4073C /* CLMView.m */,
 			);
 			path = BingZhuangTu;
 			sourceTree = "<group>";
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF58B0B81A650BCE00CF04C0 /* ViewController.m in Sources */,
+				CF451F561A65FA2F00A4073C /* CLMView.m in Sources */,
+				CF58B0D71A650DB600CF04C0 /* DrawOperation.m in Sources */,
 				CF58B0B51A650BCE00CF04C0 /* AppDelegate.m in Sources */,
 				CF58B0B21A650BCE00CF04C0 /* main.m in Sources */,
 			);
@@ -412,6 +424,7 @@
 				CF58B0D11A650BCF00CF04C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF58B0D21A650BCF00CF04C0 /* Build configuration list for PBXNativeTarget "BingZhuangTuTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				CF58B0D41A650BCF00CF04C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

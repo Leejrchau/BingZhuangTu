@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,strong)NSArray *onetableDatacostchat;
+@property(nonatomic,strong)NSArray *onetableDatawenzichat;
+
+@property(nonatomic,strong)NSNumber *zongcost;
+
 
 @end
 
